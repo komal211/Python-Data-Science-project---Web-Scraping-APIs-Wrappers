@@ -1,0 +1,9 @@
+Dataset - daily price data for Dow Jones Industrial Average Index (US Stock index containing 30 large US stocks like Apple, Boeing, Disney, etc.)
+-->need to get stock price data for all 30 constituents
+Dataset obtained from: https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average
+-->Get the data from the web with combination of web scraping and pulling data from Web API with an API wrapper packages
+-->Normalizing unicode strings and extracting the Ticker Symbols
+-->Loading historical stock prices data with help of yfinance (Yahoo Finance API wrapper package) and then save it
+Python Libraries used:
+-->pandas
+-->unicodedata
